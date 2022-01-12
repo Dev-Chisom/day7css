@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@100;200;300;400;500;600;700&family=Merriweather:wght@300;400;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.7;
+}
+body {
+  background-color: #eceff8;
+  color: #1b2442;
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+.container {
+  max-width: 100vw;
+  display: grid;
+  place-content: center;
+}
+.content {
+  max-width: 100vw;
+  /* margin: 3rem; */
+}
+.heading {
+  font-family: merriweather;
+  font-weight: 900;
+  font-size: 3.6rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+}
+.wrapper {
+  padding: 0 4rem;
+}
+.event__info {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 95vw;
+  background: #fff;
+  margin-left: 3rem;
+  border-radius: 1.5rem;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+.card-1 {
+  background: #eceff8;
+}
+.card-2 {
+  background: #f8ecf8;
+}
+.card-3 {
+  background: #f8ecec;
+}
+.card-4 {
+  background: #eef8ec;
+}
+.event__time {
+  text-align: center;
+  border-radius: 1rem;
+  width: 13.2rem;
+  padding: 2rem 0;
+  margin-right: 3rem;
+}
+.date {
+  font-family: mulish;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+.time {
+  font-family: merriweather;
+  font-size: 3.6rem;
+  font-weight: 700;
+}
+.event__details {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-right: 3.6rem;
+}
+.title {
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  margin-bottom: 1.5rem;
+  line-height: 33px;
+  color: #1b2442;
+}
+.subtitle {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 23px;
+  max-width: 36rem;
+  color: #000000;
+}
+.add {
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 21px;
+  color: #000000;
+  background: none;
+  outline: none;
+  border: none;
+  border-radius: 0.6rem;
+  padding: 0.4rem 2rem;
+  margin-right: 1rem;
+  font-weight: 400;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.add:hover {
+  background: #000000;
+  border-radius: 15px;
+  color: #fff;
+}
+
+@media  (min-width: 320px) and (max-width: 769px) {
+    .content{
+        margin: 0 1rem;
+    }
+    .heading{
+        text-align: center;
+        margin-left: 0;
+    }
+    .event__details {
+        flex-direction: column;
+        margin-right: 0;
+        margin: 1rem;
+      }
+      .event__info {
+        flex-direction: column;
+        margin-left: 0;
+      }
+      .add {
+        padding: 1rem .6rem;
+        margin-top: 1rem;
+      }
+      .event__time {
+        margin-bottom: 1.5rem;
+        margin-right: 0;
+      }
+      .title, .subtitle{
+          text-align: center;
+      }
+  }
