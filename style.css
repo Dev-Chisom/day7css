@@ -119,8 +119,13 @@ body {
   border-radius: 15px;
   color: #fff;
 }
+@media  (min-width: 991px) and (max-width: 1024px) {
+    .subtitle{
+        max-width: 26rem;
+    }
+}
 
-@media  (min-width: 320px) and (max-width: 769px) {
+@media  (min-width: 320px) and (max-width: 990px) {
     .content{
         margin: 0 1rem;
     }
