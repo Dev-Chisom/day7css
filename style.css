@@ -25,7 +25,7 @@ body {
 .heading {
   font-family: merriweather;
   font-weight: 900;
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   margin-bottom: 2rem;
   margin-left: 3rem;
 }
@@ -65,12 +65,12 @@ body {
 .date {
   font-family: mulish;
   text-transform: uppercase;
-  font-size: 1.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 .time {
   font-family: merriweather;
-  font-size: 3.6rem;
+  font-size: 2.6rem;
   font-weight: 700;
 }
 .event__details {
@@ -84,7 +84,7 @@ body {
   font-family: Merriweather;
   font-style: normal;
   font-weight: 900;
-  font-size: 32px;
+  font-size: 26px;
   margin-bottom: 1.5rem;
   line-height: 33px;
   color: #1b2442;
@@ -93,7 +93,7 @@ body {
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 22px;
+  font-size: 16px;
   line-height: 23px;
   max-width: 36rem;
   color: #000000;
@@ -101,7 +101,7 @@ body {
 .add {
   font-family: IBM Plex Sans;
   font-style: normal;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 21px;
   color: #000000;
   background: none;
